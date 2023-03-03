@@ -7,7 +7,7 @@ export const LogosContainer = styled.div`
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
 }
 
 .logos__img{
