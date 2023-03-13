@@ -27,6 +27,59 @@ export const ProgramContainer = styled.div`
     display: grid;
     place-items: center;
     margin-bottom: 1rem;
-    transition: baclground .5s;
+    transition: background .5s;
+   }
+
+   .program__title{
+      font-size: 1rem;
+      margin-bottom: 1rem;
+   }
+
+   .program__description{
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: .3px;
+      line-height: 150%;
+   }
+
+   .program__title,
+   .program__description{
+      transition: color .5s;
+   }
+
+   .program__button{
+      justify-self: flex-end;
+      margin-top: 1.5rem;
+      font-size: 1.25rem;
+      opacity: 0;
+      transition: opacity .4s;
+   }
+
+   .icon{
+      display: block;
+      color: hsl(180, 4%, 12%);
+      transition: transform .3s;
+   }
+
+   .icon:hover{
+      transform: translateX(.25rem);
+   }
+
+   .program__card:hover {
+      background-color: hsl(79, 72%, 55%);
+      border: 2px solid hsl(79, 97%, 77%);
+   }
+
+   .program__card:hover .program__shape{
+      background-color: hsl(79, 97%, 77%);
+   }
+
+   .program__card:hover .program__title,
+   .program__card:hover .program__description{
+      color: hsl(180, 4%, 12%);
+   }
+
+   .program__card:hover .program__button{
+      opacity: 1;
    }
 `
