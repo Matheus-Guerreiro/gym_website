@@ -34,19 +34,19 @@ function Pricing() {
 
                             <ul className='pricing__list'>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 5 Days In A Week
+                                    <AiOutlineCheckCircle className='icon-item' /> 5 Days In A Week
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 01 Sweatshirt
+                                    <AiOutlineCheckCircle className='icon-item' /> 01 Sweatshirt
                                 </li>
-                                <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 01 Bottle of Protein
+                                <li className='pricing__item pricing__item-opacity'>
+                                    <AiOutlineCheckCircle className='icon-item' /> 01 Bottle of Protein
                                 </li>
-                                <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> Access to Videos
+                                <li className='pricing__item pricing__item-opacity'>
+                                    <AiOutlineCheckCircle className='icon-item' /> Access to Videos
                                 </li>
-                                <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> Muscle Stretching
+                                <li className='pricing__item pricing__item-opacity'>
+                                    <AiOutlineCheckCircle className='icon-item' /> Muscle Stretching
                                 </li>
                             </ul>
 
@@ -65,19 +65,19 @@ function Pricing() {
 
                             <ul className='pricing__list'>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 5 Days In A Week
+                                    <AiOutlineCheckCircle className='icon-item' /> 5 Days In A Week
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 01 Sweatshirt
+                                    <AiOutlineCheckCircle className='icon-item' /> 01 Sweatshirt
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 01 Bottle of Protein
+                                    <AiOutlineCheckCircle className='icon-item' /> 01 Bottle of Protein
                                 </li>
-                                <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> Access to Videos
+                                <li className='pricing__item pricing__item-opacity'>
+                                    <AiOutlineCheckCircle className='icon-item' /> Access to Videos
                                 </li>
-                                <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> Muscle Stretching
+                                <li className='pricing__item pricing__item-opacity'>
+                                    <AiOutlineCheckCircle className='icon-item' /> Muscle Stretching
                                 </li>
                             </ul>
 
@@ -96,19 +96,19 @@ function Pricing() {
 
                             <ul className='pricing__list'>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 5 Days In A Week
+                                    <AiOutlineCheckCircle className='icon-item' /> 5 Days In A Week
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 01 Sweatshirt
+                                    <AiOutlineCheckCircle className='icon-item' /> 01 Sweatshirt
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> 01 Bottle of Protein
+                                    <AiOutlineCheckCircle className='icon-item' /> 01 Bottle of Protein
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> Access to Videos
+                                    <AiOutlineCheckCircle className='icon-item' /> Access to Videos
                                 </li>
                                 <li className='pricing__item'>
-                                    <AiOutlineCheckCircle /> Muscle Stretching
+                                    <AiOutlineCheckCircle className='icon-item' /> Muscle Stretching
                                 </li>
                             </ul>
 
