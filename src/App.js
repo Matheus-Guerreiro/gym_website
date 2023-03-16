@@ -1,5 +1,7 @@
 import React from "react"
+import Calculate from "./components/Calculate"
 import Choose from "./components/Choose"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Home from "./components/Home"
 import Logos from "./components/Logos"
@@ -15,6 +17,8 @@ function App() {
             <Program/>
             <Choose/>
             <Pricing/>
+            <Calculate/>
+            <Footer/>
         </>
     )
 }

@@ -53,7 +53,7 @@ function Pricing() {
                             <a href='/#' className='button button__flex pricing__button'>Purchase Now <AiOutlineArrowRight className='icon' /></a>
                         </article>
 
-                        <article className='pricing__card'>
+                        <article className='pricing__card pricing__card-active'>
                             <header className='pricing__header'>
                                 <div className='pricing__shape'>
                                     <img src={IMG2} alt='pricing' className='pricing__img' />

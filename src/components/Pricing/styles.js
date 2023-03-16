@@ -95,4 +95,23 @@ export const PricingContainer = styled.div`
     opacity: .3;
 }
 
+.pricing__card-active{
+    background-color: hsl(79, 72%, 55%);
+    border: 2px solid hsl(79, 97%, 77%);
+}
+
+.pricing__card-active .pricing__shape{
+    background-color: hsl(79, 97%, 77%);
+}
+
+.pricing__card-active .pricing__item .icon-item{
+    color: hsl(180, 4%, 98%);
+}
+
+.pricing__card-active .pricing__title,
+.pricing__card-active .pricing__number,
+.pricing__card-active .pricing__item{
+    color: hsl(180, 4%, 12%);
+}
+
 `
