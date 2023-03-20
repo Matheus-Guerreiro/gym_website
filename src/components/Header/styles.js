@@ -53,6 +53,10 @@ export const HeaderContainer = styled.div`
     transition: color .3s;
    }
 
+   .active-link{
+    color: hsl(79, 72%, 55%);
+   }
+
    .button{
     display: inline-block;
     background-color: hsl(79, 72%, 55%);

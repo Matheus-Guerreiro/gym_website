@@ -40,6 +40,22 @@ export default createGlobalStyle`
   
   --z-tooltip: 10;
   --z-fixed: 100;
+
+}
+
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(79, 4%, 15%);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(79, 4%, 45%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(79, 67%, 42%);
 }
 
 

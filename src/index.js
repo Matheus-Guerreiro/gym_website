@@ -7,7 +7,7 @@ import GlobalStyles from './globalStyles'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <>
-        <App/>
+        <App />
         <GlobalStyles />
     </>
 )

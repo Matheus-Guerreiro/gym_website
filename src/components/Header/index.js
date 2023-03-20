@@ -8,6 +8,27 @@ function Header() {
 
     const [close, setClose] = useState(false);
 
+    const sections = document.querySelectorAll('section[id]')
+
+    const scrollActive = () =>{
+        const scrollY = window.pageYOffset
+
+        sections.forEach(current => {
+            const sectionHight = current.offsetHeight,
+                  sectionTop = current.offsetTop - 58,
+                  sectionId = current.getAttribute('id'),
+                  sectionClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+
+                  if(scrollY > sectionTop && scrollY <= sectionTop + sectionHight){
+                    sectionClass.classList.add('active-link')
+                  }else {
+                    sectionClass.classList.remove('active-link')
+                  }
+
+        })
+    }
+    window.addEventListener('scroll', scrollActive)
+
 
     return (
         <HeaderContainer>
@@ -20,7 +41,7 @@ function Header() {
                     <NavMenu isClose={close} className="nav__menu" id="nav-menu">
                         <ul className="nav__list">
                             <li className="nav__item">
-                                <a onClick={() => setClose(false)} href="#home" className="nav__link">Home</a>
+                                <a onClick={() => setClose(false)} href="#home" className="nav__link active-link">Home</a>
                             </li>
                             <li className="nav__item">
                                 <a onClick={() => setClose(false)} href="#program" className="nav__link">Program</a>
