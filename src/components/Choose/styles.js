@@ -75,4 +75,24 @@ export const ChooseLogosContainer = styled.div`
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px){
+    .choose__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .choose__content, .choose__description{
+        text-align: initial;
+    }
+
+    .choose__content{
+        order: 1;
+        justify-content: initial;
+    }
+
+    .choose__data{
+        justify-content: flex-start;
+    }
+}
+
 `

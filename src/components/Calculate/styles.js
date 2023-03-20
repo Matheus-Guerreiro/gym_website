@@ -105,4 +105,28 @@ export const CalculateContainer = styled.div`
     font-weight: 500;
 }
 
+@media screen and (min-width: 768px){
+    .calculate__container{
+        grid-template-columns: 1fr .8fr;
+        align-items: center;
+    }
+
+    .calculate__description{
+        text-align: initial;
+    }
+
+    .calculate__content{
+        justify-content: initial;
+    }
+
+    .calculate__form{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+
+    .button{
+        grid-column: 1 / 3;
+    }
+}
+
 `

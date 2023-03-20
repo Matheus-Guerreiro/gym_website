@@ -104,5 +104,16 @@ export const HomeContainer = styled.div`
     transform: translateX(.25rem);
 }
 
+@media screen and (min-width: 768px){
+
+  .home__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .home__data{
+    text-align: initial;
+  }
+}
 
 `

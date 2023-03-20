@@ -114,4 +114,21 @@ export const PricingContainer = styled.div`
     color: hsl(180, 4%, 12%);
 }
 
+@media screen and (min-width: 768px){
+    
+   .pricing__container{ 
+    grid-template-columns: repeat(2, 285px);
+    gap: 2.5rem;
+   }
+
+   .section__titles{
+    justify-content: center;
+   }
+
+   .section__subtitle{
+    display: flex;
+    justify-content: center;
+   }
+}
+
 `

@@ -14,4 +14,11 @@ export const LogosContainer = styled.div`
     width: 120px;
 }
 
+@media screen and (min-width: 768px){
+
+.logos__container{
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+
 `

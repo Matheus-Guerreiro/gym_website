@@ -82,4 +82,11 @@ export const ProgramContainer = styled.div`
    .program__card:hover .program__button{
       opacity: 1;
    }
+
+   @media screen and (min-width: 768px){
+      .program__conatiner{
+         grid-template-columns: repeat(2, 225px);
+         gap: 2.5rem;
+      }
+}
 `

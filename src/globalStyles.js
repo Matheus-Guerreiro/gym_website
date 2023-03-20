@@ -176,4 +176,14 @@ img {
   color: var(--first-color);
 }
 
+
+@media screen and (min-width: 768px){
+    .section__data{
+      text-align: initial;
+    }
+
+    .section__titles{
+      justify-content: initial;
+    }
+}
 `

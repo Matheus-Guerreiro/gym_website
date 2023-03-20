@@ -28,7 +28,7 @@ function Footer() {
         <FooterContainer>
             <footer className='footer section' id='footer'>
                 <div className='footer__container container grid'>
-                    <div>
+                    <div className='footer__list-links'>
                         <a href='/' className='footer__logo'>
                             <img src={IMG1} alt='Berotot' /> BEROTOT
                         </a>
@@ -58,7 +58,7 @@ function Footer() {
                     </div>
 
                     <div className='footer__content'>
-                        <div>
+                        <div className='footer__list-links'>
                             <h3 className='footer__title'>
                                 SERVICES
                             </h3>
@@ -78,7 +78,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='footer__list-links'>
                             <h3 className='footer__title'>
                                 PRICING
                             </h3>
@@ -95,7 +95,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='footer__list-links'>
                             <h3 className='footer__title'>
                                 COMPANY
                             </h3>

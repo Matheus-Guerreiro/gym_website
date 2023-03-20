@@ -91,6 +91,12 @@ export const HeaderContainer = styled.div`
     cursor: pointer;
    }
 
+   @media screen and (min-width: 768px){
+  .nav__menu{
+    width: 50%;
+  }
+}
+
 `
 
 export const NavMenu = styled.div`

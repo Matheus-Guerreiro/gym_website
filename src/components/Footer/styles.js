@@ -117,4 +117,15 @@ export const FooterContainer = styled.div`
     background-color: hsl(79, 63%, 50%);
 }
 
+@media screen and (min-width: 768px){
+    .footer__container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+
+  .footer__content{
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
 `
