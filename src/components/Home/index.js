@@ -3,27 +3,16 @@ import React from 'react'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import IMG1 from '../../assets/home-img.png'
 import { HomeContainer } from './styles'
-import ScrollReveal from 'scrollreveal'
+import Fade from 'react-reveal/Fade';
+
 
 function Home() {
-
-
-    const sr = ScrollReveal({
-        origin: 'top',
-        distance: '60px',
-        duration: 2500,
-        delay: 400,
-    })
-
-    sr.reveal('.home__data')
-    sr.reveal('.home__img', {delay: 700, origin: 'bottom'})
-    
-
     return (
         <HomeContainer>
             <section className='home section' id='home'>
                 <div className='home__container container grid'>
                     <div className='home__data'>
+                        <Fade top delay={400}>
                         <h2 className='home__subtitle'>MAKE YOUR</h2>
                         <h1 className='home__title'>BODY SHAPE</h1>
                         <p className='home__description'>
@@ -33,8 +22,11 @@ function Home() {
                         <a href='/' className="button button__flex">
                              Get Started <AiOutlineArrowRight className='icon' />
                         </a>
+                        </Fade>
                     </div>
+                    <Fade right delay={400}>
                         <img src={IMG1} alt="home" className='home__img'/>
+                    </Fade>
 
                         <div className='home__triangle home__triangle-3'></div>
                         <div className='home__triangle home__triangle-2'></div>
