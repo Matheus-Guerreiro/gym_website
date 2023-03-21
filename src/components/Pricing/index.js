@@ -6,9 +6,20 @@ import { AiOutlineCheckCircle, AiOutlineArrowRight } from 'react-icons/ai'
 import IMG1 from "../../assets/pricing1.png"
 import IMG2 from "../../assets/pricing2.png"
 import IMG3 from "../../assets/pricing3.png"
+import ScrollReveal from 'scrollreveal'
 
 
 function Pricing() {
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+    })
+
+    sr.reveal('.pricing__card', {interval: 100})
+
     return (
         <PricingContainer>
             <section className='pricing section' id='pricing'>

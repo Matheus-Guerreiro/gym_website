@@ -131,4 +131,16 @@ export const PricingContainer = styled.div`
    }
 }
 
+@media screen and (min-width: 1150px){
+    .pricing__container{
+        padding-top: 3rem;
+        grid-template-columns: repeat(3, 320px);
+    }
+
+    .pricing__card{
+        padding: 2rem 3.5rem;
+        row-gap: 2.5rem;
+    }
+}
+
 `

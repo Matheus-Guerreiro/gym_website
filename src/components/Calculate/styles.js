@@ -129,4 +129,16 @@ export const CalculateContainer = styled.div`
     }
 }
 
+@media screen and (min-width: 1150px){
+    .calculate__description{
+        width: 415px;
+        text-align: center;
+        margin-left: 6rem;
+    }
+
+    .calculate__img{
+        width: 300px;
+    }
+}
+
 `

@@ -7,8 +7,20 @@ import IMG2 from '../../assets/program2.png'
 import IMG3 from '../../assets/program3.png'
 import IMG4 from '../../assets/program4.png'
 import { ProgramContainer } from './styles'
+import ScrollReveal from 'scrollreveal'
 
 function Program() {
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+    })
+
+    sr.reveal('.program__card', {interval: 100})
+
+
     return (
         <ProgramContainer>
             <section className='program section' id='program'>

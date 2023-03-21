@@ -89,4 +89,13 @@ export const ProgramContainer = styled.div`
          gap: 2.5rem;
       }
 }
+
+@media screen and (min-width: 1150px){
+
+   .program__conatiner{
+   grid-template-columns: repeat(4, 245px);
+   padding: 3rem 0;
+   }
+}
+
 `

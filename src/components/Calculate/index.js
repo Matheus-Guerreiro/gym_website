@@ -3,6 +3,7 @@ import React from 'react'
 import { CalculateContainer } from './styles'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import IMG1 from '../../assets/calculate-img.png'
+import ScrollReveal from 'scrollreveal'
 
 
 function Calculate() {
@@ -32,6 +33,16 @@ function Calculate() {
 
           return(console.log(bmi))
    }
+
+   const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+})
+
+sr.reveal('.calculate__content', {origin: 'left'})
+sr.reveal('.calculate__img', {origin: 'right'})
     
 
     return (

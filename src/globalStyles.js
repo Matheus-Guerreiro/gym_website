@@ -201,5 +201,21 @@ img {
   }
 }
 
+@media screen and (min-width: 1150px){
+
+  .section{
+    overflow: hidden;
+  }
+
+  .section__subtitle{
+    font-size: 2rem;
+  }
+
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 `

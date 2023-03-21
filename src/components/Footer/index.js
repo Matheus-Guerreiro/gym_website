@@ -5,6 +5,7 @@ import { FooterContainer } from './styles'
 import { AiFillFacebook, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ScrollReveal from 'scrollreveal';
 
 function Footer() {
 
@@ -23,6 +24,15 @@ function Footer() {
             theme: "colored",
         });
     }
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+    })
+
+    sr.reveal('.footer__container, .footer__group')
 
     return (
         <FooterContainer>

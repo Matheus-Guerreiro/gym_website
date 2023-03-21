@@ -22,7 +22,11 @@ export const LogosContainer = styled.div`
 }
 
 @media screen and (min-width: 1023px){
-    
+    .logos__container{
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 10rem;
+    }
 }
 
 `

@@ -6,8 +6,20 @@ import LOGO2 from "../../assets/logo2.png"
 import LOGO3 from "../../assets/logo3.png"
 import LOGO4 from "../../assets/logo4.png"
 import { LogosContainer } from './styles'
+import ScrollReveal from 'scrollreveal'
 
 function Logos() {
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+    })
+
+    sr.reveal('.logos__img', {interval: 100})
+
+
     return (
         <LogosContainer>
             <section className='logos section'>

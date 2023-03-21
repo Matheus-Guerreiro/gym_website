@@ -157,4 +157,31 @@ export const HomeContainer = styled.div`
     }
 }
 
+@media screen and (min-width: 1150px){
+    .home__data{
+        padding-top: 3rem;
+    }
+
+    .home__img{
+        width: 700px;
+        transform: translateX(2rem);
+    }
+
+    .home__triangle{
+        height: 995px;
+    }
+
+    .home__triangle-1{
+        width: 205px;
+    }
+
+    .home__triangle-2{
+        width: 505px;
+    }
+    
+    .home__triangle-3{
+        width: 705px;
+    }
+}
+
 `

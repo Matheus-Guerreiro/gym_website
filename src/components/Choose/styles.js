@@ -121,4 +121,24 @@ export const ChooseLogosContainer = styled.div`
     }
 }
 
+@media screen and (min-width: 1150px){
+    .choose__container{
+        column-gap: 8rem;
+    }
+
+    .choose__img{
+        width: 450px;
+        margin: 0 0 0 auto;
+    }
+
+    .choose__triangle{
+        height: 800px;
+    }
+    
+    .choose__description{
+        width: 418px;
+        margin-bottom: 3.5rem;
+    }
+}
+
 `

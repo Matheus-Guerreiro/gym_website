@@ -1,10 +1,22 @@
 import React from 'react'
 
 import { ChooseLogosContainer } from './styles'
-
 import IMG1 from "../../assets/choose-img.png"
+import ScrollReveal from 'scrollreveal'
 
 function Choose() {
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+    })
+
+    sr.reveal('.choose__img', {origin: 'left'})
+    sr.reveal('.choose__content', {origin: 'right'})
+
+
     return (
         <ChooseLogosContainer>
             <section className='choose section' id='choose'>
