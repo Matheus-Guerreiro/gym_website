@@ -21,4 +21,8 @@ export const LogosContainer = styled.div`
 }
 }
 
+@media screen and (min-width: 1023px){
+    
+}
+
 `

@@ -95,6 +95,28 @@ export const HeaderContainer = styled.div`
   .nav__menu{
     width: 50%;
   }
+
+  @media screen and (min-width: 1023px){
+    .nav{
+   height: calc(3.5rem + 2rem);
+  }
+
+  .nav__menu{
+    width: initial;
+  }
+
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+
+  .nav__list{
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    column-gap: 4rem;
+  }
+}
 }
 
 `

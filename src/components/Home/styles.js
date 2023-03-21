@@ -18,14 +18,12 @@ export const HomeContainer = styled.div`
 }
 
 .home__subtitle{
-    font-size: 1.5rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: hsl(180, 4%, 98%);
 }
 
 .home__title{
-    font-size: 1.5rem;
     font-weight: 900;
     margin: .5rem 0;
 }
@@ -114,6 +112,49 @@ export const HomeContainer = styled.div`
   .home__data{
     text-align: initial;
   }
+}
+
+@media screen and (min-width: 1023px){
+    
+    .home__container{
+        grid-template-columns: repeat(2, max-content);
+        align-items: initial;
+    }
+
+    .home__title{
+        margin: .75rem 0 1.25rem;
+        font-size: 4.8rem;
+    }
+
+    .home__description{
+        width: 445px;
+        margin-bottom: 3rem;
+    }
+
+    .home__subtitle{
+        font-size: 3rem;
+    }
+
+    .home__img{
+        width: 550px;
+        transform: translateX(-6rem);
+    }
+
+    .home__triangle{
+        height: 700px;
+    }
+
+    .home__triangle-1{
+        width: 145px;
+    }
+
+    .home__triangle-2{
+        width: 345px;
+    }
+
+    .home__triangle-3{
+        width: 545px;
+    }
 }
 
 `

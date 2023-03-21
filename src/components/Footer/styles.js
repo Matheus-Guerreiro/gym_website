@@ -128,4 +128,22 @@ export const FooterContainer = styled.div`
   }
 }
 
+@media screen and (min-width: 1023px){
+    .footer{
+        padding-bottom: 3rem;
+    }
+
+    .footer__form{
+        flex-direction: row;
+    }
+
+    .footer__content{
+        column-gap: 5rem;
+    }
+
+    .footer__group{
+        margin-top: 7rem;
+    }
+}
+
 `

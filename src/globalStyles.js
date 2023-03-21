@@ -186,4 +186,20 @@ img {
       justify-content: initial;
     }
 }
+
+@media screen and (min-width: 1023px){
+  .section{
+    padding: 7rem 0 0;
+  }
+
+  .section__data{
+    text-align: center;
+  }
+
+  .section__titles{
+    justify-content: center;
+  }
+}
+
+
 `

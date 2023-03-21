@@ -20,14 +20,11 @@ function Home() {
                              Get Started <AiOutlineArrowRight className='icon' />
                         </a>
                     </div>
-
-                    <div className='home__images'>
                         <img src={IMG1} alt="home" className='home__img'/>
 
                         <div className='home__triangle home__triangle-3'></div>
                         <div className='home__triangle home__triangle-2'></div>
                         <div className='home__triangle home__triangle-1'></div>
-                    </div>
                 </div>
             </section>
         </HomeContainer>

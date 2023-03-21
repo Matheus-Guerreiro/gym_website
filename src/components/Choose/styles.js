@@ -95,4 +95,30 @@ export const ChooseLogosContainer = styled.div`
     }
 }
 
+@media screen and (min-width: 1023px){
+    .choose__overflow{
+        overflow: hidden;
+    }
+
+    .choose__img{
+        width: 351px;
+    }
+
+    .choose__triangle{
+        height: 700px;
+    }
+
+    .choose__triangle-1{
+        width: 545px;
+    }
+
+    .choose__triangle-2{
+        width: 345px;
+    }
+
+    .choose__triangle-3{
+        width: 145px;
+    }
+}
+
 `
