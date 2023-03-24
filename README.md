@@ -4,7 +4,7 @@ Landing Page Gym Website
 
 > <a href="https://gym-website2023.netlify.app/">Resultado do projeto.</a> <<<<
 
-<img src="./assets/Gym Website.png" alt="Print screen">
+<img src="./src/assets/Gym Website.png" alt="Print screen">
 
 ## 🤝 Colaboradores
 
